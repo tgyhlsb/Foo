@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "Foo",
             dependencies: [
-                .product(name: "Apollo", package: "Apollo"),
+                .product(name: "Apollo-Dynamic", package: "Apollo"),
             ]),
         .testTarget(
             name: "FooTests",
